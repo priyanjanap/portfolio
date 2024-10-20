@@ -1,0 +1,660 @@
+#assignmentPage{
+    position: relative;
+    height: 100vh;
+    background-image: linear-gradient(gray,black);
+    top: 2500px;
+}
+#assignmentPage>header>div{
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #5F6160;
+    opacity: 50%;
+    position: absolute;
+    left: 600px;
+    margin: auto;
+}
+#assignmentPage>header>div>h3{
+    color:darkorange;
+    font-size: 35px;
+    position: absolute;
+    left: 90px;
+    margin: auto;
+}
+.flip-card {
+    position: absolute;
+    background-color: transparent;
+    width: 190px;
+    height: 254px;
+    perspective: 1000px;
+    font-family: sans-serif;
+    margin-top: 70px;
+    margin-left: 100px;
+}
+.liveass{
+    position: absolute;
+    bottom: 130px;
+    left: 22px;
+    text-decoration: none;
+    color: black;
+}
+.gitass{
+    position: absolute;
+    bottom: 60px;
+    left: 70px;
+    text-decoration: none;
+    color: black;
+}
+.title {
+    font-size: 1.5em;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+    color: black;
+}
+.title1{
+    font-size: 1.5em;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+    color: black;
+}
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border: 1px solid coral;
+    border-radius: 1rem;
+}
+
+.flip-card-front {
+    background: linear-gradient(grey,black);
+    color: black;
+}
+
+.flip-card-back {
+    background: linear-gradient(120deg, rgb(255, 174, 145) 30%, mediumpurple 88%,
+    bisque 40%, rgb(255, 185, 160) 78%);
+    color: white;
+    transform: rotateY(180deg);
+}
+
+#flipCard2{
+    margin-left: 320px;
+    margin-top: 70px;
+
+}
+#flipCard3{
+    margin-left: 540px;
+    margin-top: 70px;
+}
+
+#flipCard4{
+    margin-left: 760px;
+    margin-top: 70px;
+}
+
+
+#flipCard5{
+    margin-left: 980px;
+    margin-top: 70px;
+}
+
+#flipCard6{
+    margin-left: 1200px;
+    margin-top: 70px;
+}
+
+#flipCard7{
+    margin-left: 100px;
+    margin-top: 340px;
+}
+
+#flipCard8{
+    margin-left: 320px;
+    margin-top: 340px;
+}
+
+#flipCard9{
+    margin-left: 540px;
+    margin-top: 340px;
+}
+
+#flipCard10{
+    margin-left: 760px;
+    margin-top: 340px;
+}
+
+#flipCard11{
+    margin-left: 980px;
+    margin-top: 340px;
+}
+
+#flipCard12{
+    margin-left: 1200px;
+    margin-top: 340px;
+}
+
+#assignmentPage>footer>h1{
+    position: absolute;
+    color: grey;
+    opacity: 35%;
+    font-size: 180px;
+    left: 20px;
+    bottom: 10px;
+    margin: auto;
+}
+
+@media all and (max-width: 1440px) {
+    #assignmentPage>header>div {
+        width: 450px;
+        left: 479px;
+    }
+
+    #assignmentPage>header>div>h3 {
+        font-size: 30px;
+        left: 122px;
+        top: 8px;
+    }
+
+    .flip-card {
+        width: 180px;
+        height: 234px;
+        margin-top: 92px;
+        margin-left: 50px;
+    }
+
+    .liveass {
+        bottom: 100px;
+        left: 10px;
+    }
+
+    .gitass {
+        bottom: 30px;
+        left: 50px;
+        color: white;
+    }
+
+    .title {
+        font-size: 1.2em;
+    }
+
+    .title1 {
+        font-size: 1.2em;
+    }
+
+    #flipCard2 {
+        margin-left: 290px;
+        margin-top: 92px;
+    }
+
+    #flipCard3 {
+        margin-left: 515px;
+        margin-top: 92px;
+    }
+
+    #flipCard4 {
+        margin-left: 750px;
+        margin-top: 92px;
+    }
+
+    #flipCard5 {
+        margin-left: 980px;
+        margin-top: 92px;
+    }
+
+    #flipCard6 {
+        margin-left: 1205px;
+        margin-top: 92px;
+    }
+
+    #flipCard7 {
+        margin-left: 50px;
+        margin-top: 350px;
+    }
+
+    #flipCard8 {
+        margin-left: 290px;
+        margin-top: 350px;
+    }
+
+    #flipCard9 {
+        margin-left: 515px;
+        margin-top: 350px;
+    }
+
+    #flipCard10 {
+        margin-left: 750px;
+        margin-top: 350px;
+    }
+
+    #flipCard11 {
+        margin-left: 980px;
+        margin-top: 350px;
+    }
+
+    #flipCard12 {
+        margin-left: 1205px;
+        margin-top: 350px;
+    }
+}
+
+/* Media Query for max-width 1024px */
+@media all and (max-width: 1024px) {
+    #assignmentPage>header>div {
+        width: 350px;
+        left: 315px;
+    }
+
+    #assignmentPage>header>div>h3 {
+        font-size: 28px;
+        left: 83px;
+        top: 8px;
+    }
+
+    .flip-card {
+        width: 134px;
+        height: 204px;
+        margin-top: 92px;
+        margin-left: 50px;
+    }
+
+    .liveass {
+        bottom: 100px;
+        left: 10px;
+    }
+
+    .gitass {
+        bottom: 30px;
+        left: 50px;
+        color: white;
+    }
+
+    .title {
+        font-size: 1em;
+    }
+
+    .title1 {
+        font-size: 1em;
+    }
+
+    #flipCard2 {
+        margin-left: 200px;
+        margin-top: 92px;
+    }
+
+    #flipCard3 {
+        margin-left: 360px;
+        margin-top: 92px;
+    }
+
+    #flipCard4 {
+        margin-left: 520px;
+        margin-top: 92px;
+    }
+
+    #flipCard5 {
+        margin-left: 680px;
+        margin-top: 92px;
+    }
+
+    #flipCard6 {
+        margin-left: 840px;
+        margin-top: 92px;
+    }
+
+    #flipCard7 {
+        margin-left: 50px;
+        margin-top: 350px;
+    }
+
+    #flipCard8 {
+        margin-left: 200px;
+        margin-top: 350px;
+    }
+
+    #flipCard9 {
+        margin-left: 360px;
+        margin-top: 350px;
+    }
+
+    #flipCard10 {
+        margin-left: 520px;
+        margin-top: 350px;
+    }
+
+    #flipCard11 {
+        margin-left:680px;
+        margin-top: 350px;
+    }
+
+    #flipCard12 {
+        margin-left: 840px;
+        margin-top: 350px;
+    }
+
+    #assignmentPage>footer>h1{
+        font-size: 150px;
+    }
+}
+
+
+/* Media Query for max-width 768px */
+@media all and (max-width: 768px) {
+    #assignmentPage>header>div {
+        width: 250px;
+        left: 235px;
+    }
+
+    #assignmentPage>header>div>h3 {
+        font-size: 24px;
+        left: 63px;
+        top: 8px;
+    }
+
+    .flip-card {
+        width: 80px;
+        height: 138px;
+        margin-top: 92px;
+        margin-left: 133px;
+    }
+
+    .liveass {
+        bottom: 100px;
+        left: 10px;
+    }
+
+    .gitass {
+        bottom: 30px;
+        /*left: 70px;*/
+        left: 20px;
+        color: white;
+    }
+
+    .title {
+        font-size: 12px;
+        left: 1px;
+    }
+
+    .title1 {
+        font-size: 0.9em;
+    }
+
+    #flipCard2 {
+        margin-left: 270px;
+        margin-top: 92px;
+    }
+
+    #flipCard3 {
+        margin-left: 412px;
+        margin-top: 92px;
+    }
+
+    #flipCard4 {
+        margin-left: 556px;
+        margin-top: 92px;
+    }
+
+    #flipCard5 {
+        margin-left: 133px;
+        margin-top: 318px;
+    }
+
+    #flipCard6 {
+        margin-left: 271px;
+        margin-top: 318px;
+    }
+
+    #flipCard7 {
+        margin-left: 412px;
+        margin-top: 318px;
+    }
+
+    #flipCard8 {
+        margin-left: 556px;
+        margin-top: 318px;
+    }
+
+    #flipCard9 {
+        margin-left: 133px;
+        margin-top: 550px;
+    }
+
+    #flipCard10 {
+        margin-left: 271px;
+        margin-top: 550px;
+    }
+
+    #flipCard11 {
+        margin-left: 412px;
+        margin-top: 550px;
+    }
+
+    #flipCard12 {
+        margin-left: 556px;
+        margin-top: 550px;
+    }
+
+    #assignmentPage>footer>h1 {
+        font-size: 110px;
+    }
+}
+
+/* Media Query for max-width 425px */
+@media all and (max-width: 425px) {
+    #assignmentPage{
+        position: relative;
+        top: 750px;
+    }
+    #assignmentPage>header>div {
+        width: 250px;
+        left: 89px;
+
+    }
+
+    #assignmentPage>header>div>h3 {
+        font-size: 24px;
+        left: 55px;
+        top: 12px;
+    }
+
+    #assignmentPage>footer>h1 {
+        font-size: 50px;
+        left: 6px;
+        bottom: 30px;
+    }
+    .gitass{
+        left: 20px;
+    }
+    #flipCard1{
+        left: -110px;
+
+    }
+    #flipCard2{
+        left: -155px;
+    }
+    #flipCard3{
+        left: -205px;
+    }
+    #flipCard4{
+        left: -255px;
+    }
+    #flipCard5{
+        left: -110px;
+        top: -20px;
+    }
+    #flipCard6{
+        left: -155px;
+        top: -20px;
+    }
+    #flipCard7{
+        left: -205px;
+        top: -20px;
+    }
+    #flipCard8{
+        left: -255px;
+        top: -20px;
+    }
+    #flipCard9{
+        left: -110px;
+        top: -50px;
+    }
+    #flipCard10{
+        left: -155px;
+        top: -50px;
+    }
+    #flipCard11{
+        left: -205px;
+        top: -50px;
+    }
+    #flipCard12{
+        left: -255px;
+        top: -50px;
+    }
+}
+
+/* Media Query for max-width 375px */
+@media all and (max-width: 375px) {
+    #assignmentPage>header>div {
+        width: 250px;
+        left: 57px;
+    }
+
+    #assignmentPage>header>div>h3 {
+        font-size: 24px;
+        left: 55px;
+        top: 12px;
+    }
+
+    #assignmentPage>footer>h1 {
+        font-size: 40px;
+        left: 6px;
+    }
+    .gitass{
+        left: 20px;
+    }
+    #flipCard1{
+        left: -128px;
+    }
+    #flipCard2{
+        left: -177px;
+    }
+    #flipCard3{
+        left: -229px;
+    }
+    #flipCard4{
+        left: -285px;
+    }
+    #flipCard5{
+        left: -127px;
+    }
+    #flipCard6{
+        left: -176px;
+    }
+    #flipCard7{
+        left: -227px;
+    }
+    #flipCard8{
+        left: -283px;
+    }
+    #flipCard9{
+        left: -127px;
+    }
+    #flipCard10{
+        left: -176px;
+    }
+    #flipCard11{
+        left: -227px;
+    }
+    #flipCard12{
+        left: -283px;
+    }
+}
+/*////////////////////////////////////////////////////*/
+
+@media all and (max-width: 320px) {
+    #assignmentPage>header>div {
+        width: 200px;
+        left: 57px;
+    }
+
+    #assignmentPage>header>div>h3 {
+        font-size: 23px;
+        left: 29px;
+        top: 12px;
+    }
+
+    #assignmentPage>footer>h1 {
+        font-size: 40px;
+        left: 6px;
+    }
+    .gitass{
+        left: 20px;
+    }
+    #flipCard1{
+        left: -123px;
+    }
+    #flipCard2{
+        left: -155px;
+    }
+    #flipCard3{
+        left: -200px;
+    }
+    #flipCard4{
+        left: -545px;
+        bottom: 523px;
+    }
+    #flipCard5{
+        left: -20px;
+        top: -35px;
+    }
+    #flipCard6{
+        left: -60px;
+        top: -35px;
+    }
+    #flipCard7{
+        left: -400px;
+        top: 173px;
+
+    }
+    #flipCard8{
+        left: -443px;
+        top: 173px;
+    }
+    #flipCard9{
+        left: 77px;
+        top: -60px;
+    }
+    #flipCard10{
+        left: -260px;
+        top: 130px;
+    }
+    #flipCard11{
+        left: -300px;
+        top: 130px;
+    }
+    #flipCard12{
+        left: -345px;
+        top: 130px;
+    }
+}
+

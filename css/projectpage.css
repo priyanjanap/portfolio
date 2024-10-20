@@ -1,0 +1,385 @@
+
+#projectSection{
+    position: relative;
+    top: 1870px;
+
+}
+#projectSection > h1 {
+    font-family: sans-serif;
+    position: absolute;
+    left: 43%;
+    top: 9vh;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#projectSection > div > div:first-child {
+    height: 60vh;
+    width: 20vw;
+    position: absolute;
+    border: 7px solid darkgray;
+    border-radius: 18px;
+    top: 27vh;
+    left: 13vw;
+    background: gray;
+    overflow: hidden;
+}
+
+#projectSection > div > div:nth-child(2) {
+    height: 60vh;
+    width: 20vw;
+    position: absolute;
+    border: 7px solid darkgray;
+    border-radius: 18px;
+    top: 27vh;
+    left: 38vw;
+    background: gray;
+    overflow: hidden;
+}
+
+#projectSection > div > div:nth-child(3) {
+    height: 60vh;
+    width: 20vw;
+    position: absolute;
+    border: 7px solid darkgray;
+    border-radius: 18px;
+    top: 27vh;
+    left: 63vw;
+    background: gray;
+    overflow: hidden;
+}
+
+#projectSection > div > div:first-child > div {
+    height: 250%;
+    width: 250%;
+    background: white;
+    border-radius: 100%;
+    top: -10vh;
+    position: absolute;
+
+}
+
+#projectSection > div > div:nth-child(2) > div {
+    height: 250%;
+    width: 250%;
+    background: white;
+    border-radius: 100%;
+    top: -10vh;
+    position: absolute;
+
+}
+
+#projectSection > div > div:nth-child(3) > div {
+    height: 250%;
+    width: 250%;
+    background: white;
+    border-radius: 100%;
+    top: -10vh;
+    position: absolute;
+
+}
+
+#projectSection > div > div > h4 {
+    position: absolute;
+    color: white;
+    right: 1vw;
+    top: 0;
+    font-family: monospace;
+    transition-duration: 1s;
+}
+
+#projectSection > div > div > h1 {
+    position: absolute;
+    top: 43%;
+    font-size: 160%;
+    left: 8%;
+    color: white;
+    transition-duration: 1s;
+}
+
+#projectSection > div > div > p {
+    position: absolute;
+    top: 57%;
+    left: 9%;
+    width: 86%;
+    color: white;
+    font-family: monospace;
+    line-height: 141.5%;
+    transition-duration: 1s;
+}
+
+#projectSection > div > div > img {
+    width: 55%;
+    position: absolute;
+    top: 16%;
+    left: 22%;
+    filter: grayscale(100%);
+    transition-duration: 1s;
+}
+
+#projectSection > div > div > nav {
+    border: 1px solid black;
+    border-radius: 2px;
+    overflow: hidden;
+    width: 8vw;
+    height: 7%;
+    position: absolute;
+    bottom: 5%;
+    left: 10%;
+}
+
+#projectSection > div > div > nav > div:first-child {
+    position: absolute;
+    left: 36%;
+    top: 20%;
+    transform: translateX(-464%);
+    transition-duration: 1s;
+}
+
+#projectSection > div > div > nav > div:nth-child(2) {
+    position: absolute;
+    font-size: 37%;
+    left: 6%;
+    transform: translateX(33%);
+    transition-duration: 1s;
+
+}
+
+.hideText {
+    transform: translateX(181%) !important;
+    transition-duration: 1s;
+}
+
+.showicon {
+    transform: translateX(69%) !important;
+    transition-duration: 1s;
+    color: white;
+}
+
+.textClr {
+    color: #0d3fc4 !important;
+    transition-duration: 1s;
+
+}
+
+.imgClr {
+    filter: grayscale(0%) !important;
+    transition-duration: 1s;
+}
+
+.clr {
+    background: indigo;
+    transition-duration: 1s;
+    color: white;
+}
+
+.hideCir {
+    transform: translateX(-101%);
+    transition-duration: 0.5s;
+}
+
+.fadeCir {
+    transform: translateX(-34%) !important;
+    transition-duration: 0.5s;
+}
+#projectSection>footer>h1{
+    position: absolute;
+    color: grey;
+    opacity: 35%;
+    font-size: 180px;
+    left: 20px;
+top: 100vh;
+    margin: auto;
+}
+@media all and (max-width: 1321px) {
+    #projectSection > div > div:first-child {
+        height: 52vh;
+    }
+
+    #projectSection > div > div:nth-child(2) {
+        height: 52vh;
+    }
+
+    #projectSection > div > div:nth-child(3) {
+        height: 52vh;
+    }
+}
+
+@media all and (max-width: 1281px) {
+    #projectSection > div > div:first-child {
+        height: 52vh;
+    }
+
+    #projectSection > div > div:nth-child(2) {
+        height: 52vh;
+    }
+
+    #projectSection > div > div:nth-child(3) {
+        height: 52vh;
+    }
+
+    #projectSection > div > div > h1 {
+        top: 37%;
+        font-size: 129%;
+    }
+
+    #projectSection > div > div > p {
+        top: 49%;
+    }
+
+    #projectSection > div > div > nav {
+        bottom: 11%;
+    }
+
+    #projectSection > div > div > nav > div:nth-child(2) {
+        left: -14%;
+    }
+
+}
+
+@media all and (max-width: 1024px) {
+    #projectSection {
+        height: 1118px;
+        position: relative;
+        top: 350px;
+    }
+
+    #projectSection > div > div:first-child {
+        height: 398px;
+        width: 237px;
+    }
+
+    #projectSection > div > div:nth-child(2) {
+        height: 398px;
+        width: 237px;
+    }
+
+    #projectSection > div > div:nth-child(3) {
+        height: 398px;
+        width: 237px;
+    }
+}
+
+@media all and (max-width: 1024px) {
+    #projectSection > div > div:first-child {
+        top: 202px;
+        left: 21vw;
+    }
+
+    #projectSection > div > div:nth-child(2) {
+        top: 202px;
+        left: 58vw;
+    }
+
+    #projectSection > div > div:nth-child(3) {
+        top: 653px;
+        left: 40vw;
+    }
+}
+
+@media all and (max-width: 970px) {
+    #projectSection > div > div > nav > div:nth-child(2) {
+        left: -19%;
+    }
+
+    #projectSection > div > div > nav {
+        width: 75px;
+        height: 30px;
+    }
+
+    #projectSection > h1 {
+        left: 39vw;
+    }
+
+    #projectSection > div > div:first-child {
+        top: 202px;
+        left: 20vw;
+    }
+
+    #projectSection > div > div:nth-child(2) {
+        top: 202px;
+        left: 53vw;
+    }
+
+    #projectSection > div > div:nth-child(3) {
+        top: 653px;
+        left: 36vw;
+    }
+}
+
+@media all and (max-width: 769px) {
+    #projectSection {
+        height: 1569px;
+    }
+
+    #projectSection > h1 {
+        left: 36vw;
+    }
+
+    #projectSection > div > div:first-child {
+        top: 202px;
+        left: 32vw;
+    }
+
+    #projectSection > div > div:nth-child(2) {
+        top: 647px;
+        left: 32vw;
+    }
+
+    #projectSection > div > div:nth-child(3) {
+        top: 1088px;
+        left: 32vw;
+    }
+
+}
+
+
+
+@media all and (max-width: 424px) {
+    #projectSection{
+        position: relative;
+        top: 120vh;
+
+    }
+    #projectSection > h1 {
+        left: 25vw;
+    }
+
+    #projectSection > div > div:first-child {
+        top: 174px;
+        left: 21vw;
+    }
+
+    #projectSection > div > div:nth-child(2) {
+        top: 618px;
+        left: 21vw;
+    }
+
+    #projectSection > div > div:nth-child(3) {
+        top: 1060px;
+        left: 21vw;
+    }
+
+}
+
+@media all and (max-width: 350px) {
+    #projectSection > h1 {
+        left: 21vw;
+    }
+
+    #projectSection > div > div:first-child {
+        top: 174px;
+        left: 12vw;
+    }
+
+    #projectSection > div > div:nth-child(2) {
+        top: 618px;
+        left: 12vw;
+    }
+
+    #projectSection > div > div:nth-child(3) {
+        top: 1060px;
+        left: 12vw;
+    }
+}

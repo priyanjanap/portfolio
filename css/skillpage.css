@@ -1,0 +1,155 @@
+.skills-container{
+    /*background-image: linear-gradient(gray,black);*/
+    font-family: Arial, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    top: 1800px;
+    background-color: black;
+
+}
+
+.skills-container h1 {
+    font-size: 70px;
+    font-weight: bold;
+    position: relative;
+    bottom: 250px;
+    left: 39%;
+
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    right: 150px;
+    width: 1000px;
+    position: relative;
+    top: 100px;
+}
+
+.skill {
+    background-color: #191919;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    gap: 10px;
+}
+
+.progress-bar {
+    background-color: #333;
+    border-radius: 25px;
+    height: 10px;
+    margin-top: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.progress {
+    height: 100%;
+    background-color: #8e44ad;
+    width: 0; /* Initially set width to 0 */
+    border-radius: 25px;
+}
+
+
+
+.progress[data-skill] {
+    width: 70%;
+}
+
+.progress.html {
+    width: 80%;
+}
+
+.progress.css {
+    width: 75%;
+}
+
+.progress.javascript {
+    width: 65%;
+}
+
+.progress.mysql {
+    width: 60%;
+}
+
+.progress.java {
+    width: 70%;
+}
+
+.progress.python {
+    width: 65%;
+}
+
+@keyframes fillBar {
+    from {
+        width: 0;
+    }
+    to {
+        width: 80%;
+    }
+}
+@media all and (max-width: 1024px){
+    .skills-container{
+        position: relative;
+top: 1750px    }
+
+    .skills-container h1 {
+        font-size: 50px;
+        font-weight: bold;
+        position: relative;
+        bottom: 250px;
+        left: 42%;
+
+    }
+    .skills{
+    width: 800px;
+    position: relative;
+    right: 80px;
+         }
+
+}
+
+@media all and (max-width: 768px) {
+
+    .skills{
+        position: relative;
+        right: 50px;
+        bottom: 150px;
+        width: 600px;
+    }
+}
+
+@media all and (max-width: 425px){
+    .skills-container h1 {
+        font-size: 50px;
+        font-weight: bold;
+        left: 36%;
+
+    }
+    .skills {
+        display: grid;
+        grid-template-columns: 1fr ;
+        gap: 70px;
+        width: 300px;
+        position: relative;
+        top: 270px;
+    }
+
+}
+
+@media all and (max-width: 320px){
+    .skills{
+        position: relative;
+        width: 250px;
+        right: 28px;
+    }
+}
+
